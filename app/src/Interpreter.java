@@ -15,6 +15,7 @@ public class Interpreter {
         for (int i = 0; i < this.memSize; i++) {
             memory[i] = 0;
         }
+        this.pointer = 0;
     }
 
     public void readAndExecute(String fileName) throws IOException {
